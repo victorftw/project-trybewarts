@@ -24,6 +24,10 @@ main {
     flex-direction: column;
 }
 
+#evaluation-form div {
+    display: flex;
+}
+
 #trybewarts-forms-logo {
     height: 500px;
 }
