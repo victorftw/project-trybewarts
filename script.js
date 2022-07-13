@@ -27,3 +27,16 @@ checkbox.addEventListener('click', () => {
 window.onload = () => {
   submitBtn.disabled = true;
 };
+
+// countador de caracteres no text area
+
+const textarea = document.getElementById('textarea');
+const contador = document.getElementById('counter');
+contador.innerHTML = 500;
+
+textarea.addEventListener('input', (e) => {
+  const { target } = e;
+  const maxLength = target.getAttribute('maxlength');
+  const currentLength = target.value.length;
+  contador.innerHTML = maxLength - currentLength;
+});
