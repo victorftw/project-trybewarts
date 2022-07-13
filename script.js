@@ -1,22 +1,21 @@
-const botaoHeader = document.getElementById("botao-header");
-const inputPassword = document.getElementById("senha-header");
-const inputEmail = document.getElementById("email-header");
+const botaoHeader = document.getElementById('botao-header');
+const inputPassword = document.getElementById('senha-header');
+const inputEmail = document.getElementById('email-header');
 
-botaoHeader.addEventListener("click", () => {
+botaoHeader.addEventListener('click', () => {
   if (
-    inputPassword.value === "123456" &&
-    inputEmail.value === "tryber@teste.com"
+    inputPassword.value === '123456' && inputEmail.value === 'tryber@teste.com'
   ) {
-    alert("Olá, Tryber!");
+    alert('Olá, Tryber!');
   } else {
-    alert("Email ou senha inválidos.");
+    alert('Email ou senha inválidos.');
   }
 });
 
-const checkbox = document.querySelector("#agreement");
-const submitBtn = document.querySelector("#submit-btn");
+const checkbox = document.querySelector('#agreement');
+const submitBtn = document.querySelector('#submit-btn');
 
-checkbox.addEventListener("click", (e) => {
+checkbox.addEventListener('click', () => {
   if (checkbox.checked === true) {
     submitBtn.disabled = false;
   }

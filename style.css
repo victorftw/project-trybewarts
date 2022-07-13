@@ -33,17 +33,17 @@ main {
 }
 
 #div3 {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #div4 {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #div7 {
-    display: flex;
+  display: flex;
 }
 
 #trybewarts-forms-logo {
