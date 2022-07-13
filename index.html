@@ -16,26 +16,48 @@
       />
       <h1 id="trybewarts-header-title">Trybewarts</h1>
       <form action="" class="trybewarts-login">
-        <input type="email" name="email" id="email-header" placeholder="Email">
-        <input type="password" name="password" id="senha-header" placeholder="Senha">
-        <button type="submit" id='botao-header'>Entrar</button>
+        <input
+          type="email"
+          name="email"
+          id="email-header"
+          placeholder="Email"
+        />
+        <input
+          type="password"
+          name="password"
+          id="senha-header"
+          placeholder="Senha"
+        />
+        <button type="submit" id="botao-header">Entrar</button>
       </form>
     </header>
     <main>
-        <form action="" id="evaluation-form">
-            <div>
-                <input type="text" id="input-name" placeholder="Nome">
-                <input type="text" id="input-lastname" placeholder="Sobrenome">
-            </div>
-            <input type="text" id="input-email" placeholder="Email">
-            <select name="" id="house">
-                <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-                <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                <option value="Corvinode" id="corvinode-house">Corvinode</option>
-                <option value="Pytherina" id="pytherina-house">Pytherina</option>
-            </select>
-        </form>
-        <img src="images/trybewarts-colored.svg" alt="trybe wards forms logo" id="trybewarts-forms-logo">
+      <form action="" id="evaluation-form">
+        <div>
+          <input type="text" id="input-name" placeholder="Nome" />
+          <input type="text" id="input-lastname" placeholder="Sobrenome" />
+        </div>
+        <div id="div2">
+          <input type="text" id="input-email" placeholder="Email" />
+          <select name="" id="house">
+            <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+            <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+            <option value="Corvinode" id="corvinode-house">Corvinode</option>
+            <option value="Pytherina" id="pytherina-house">Pytherina</option>
+          </select>
+        </div>
+        <div id="div3">
+          <label for="" id="label-family">Qual sua família?</label>
+          <label for="Frontend"> <input type="radio" name="family" id="Frontend" /> Familía Frontend </label>
+          <label for="Backend"> <input type="radio" name="family" id="Backend" /> Familía Backend </label>
+          <label for="FullStack"> <input type="radio" name="family" id="FullStack" /> Familía FullStack </label>
+        </div>
+      </form>
+      <img
+        src="images/trybewarts-colored.svg"
+        alt="trybe wards forms logo"
+        id="trybewarts-forms-logo"
+      />
     </main>
   </body>
   <script src="script.js"></script>
