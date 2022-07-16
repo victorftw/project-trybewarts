@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   display: flex;
   flex-direction: column;
@@ -18,9 +17,14 @@ main {
 }
 
 footer {
-  background-color: #3C404A;
+  background-color: rgb(50, 167, 145);
   color: white;
   text-align: center;
+  padding: 20px;
+}
+
+textarea {
+  resize: none;
 }
 
 .header {
@@ -41,7 +45,7 @@ footer {
   margin-right: 3%;
 }
 
-.trybewarts-login input{
+.trybewarts-login input {
   padding: 3px 0;
   margin-right: 5px;
   border: none;
@@ -86,5 +90,5 @@ footer {
 }
 
 .hidden {
-display: none;
+  display: none;
 }
